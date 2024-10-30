@@ -15,7 +15,7 @@ const About = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Hello! {`I'm`} <span className="font-semibold">Urooj Memon</span>, a dedicated web developer with a passion for creating sleek, modern, and responsive websites. With expertise in <span className="font-semibold">Next.js</span> and <span className="font-semibold">Tailwind CSS</span>, I strive to deliver user-centered experiences that not only look stunning but also function seamlessly across all devices. My journey in web development has equipped me with a strong foundation in <span className="font-semibold">TypeScript</span> and <span className="font-semibold">React</span>, along with backend knowledge in <span className="font-semibold">Node.js</span>.
                 <br/><br/>
-                When {`I’m`} not immersed in coding, {`you’ll`} find me indulging in my love for reading or exploring the latest web technologies. I’m continuously looking for opportunities to learn, grow, and take on exciting challenges to push my skills to the next level.
+                When {`I’m`} not immersed in coding, {`you’ll`} find me indulging in my love for reading or exploring the latest web technologies.{`I’m`} continuously looking for opportunities to learn, grow, and take on exciting challenges to push my skills to the next level.
               </p>
 
               {/* Contact Button */}
@@ -28,17 +28,17 @@ const About = () => {
             </div>
 
             {/* Image Section */}
-            <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-              <div className="w-72 h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden"> 
-                <Image 
-                  src="/mypic.png" 
-                  alt="Profile Picture" 
-                  className="object-cover"  
-                  height={450}
-                  width={450}
-                />
-              </div>
-            </div>
+            <div className="relative group w-72 h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden bg-gradient-to-r from-pink-500 to-red-500 p-1">
+           <div className="w-full h-full rounded-full bg-white overflow-hidden transform transition duration-300 ease-out group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-2xl">
+           <Image 
+           src="/mypic.png" 
+           alt="Profile Picture" 
+            className="object-cover object-center w-full h-full"  
+           height={450}
+           width={450}
+           />
+           </div>
+           </div>
           </div>
         </div>
       </section>

@@ -12,15 +12,17 @@ const Hero = () => {
     <div className='bg-red-200'>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="w-72 h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden">
-            <Image
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="/mypic.png"
-              height={500}
-              width={500}
-            />
-          </div>
+ 
+        <div className="w-72 h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden transform transition duration-300 hover:scale-110 hover:rotate-3 ">
+         <Image
+         className="object-cover object-center rounded"
+         alt="hero"
+         src="/mypic.png"
+          height={500}
+         width={500}
+         />
+        </div>
+
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Hello, {`I'm`} <br /> <span className='text-red-500'>UROOJ MEMON</span>
