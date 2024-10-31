@@ -9,11 +9,7 @@ export default function Home() {
     <div>
    <Header />
    <Hero />
-   <br />
-   <br />
    <About />
-   <br />
-   <br />
    <Contact />
    <Footer />
     </div>

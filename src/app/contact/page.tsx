@@ -3,29 +3,29 @@ import { FaMapMarkerAlt, FaPhone, FaFax, FaEnvelope, FaFacebook, FaTwitter, FaIn
 
 export default function Contact() {
   return (
-         <div className="bg-red-200 p-10 min-h-screen flex flex-col items-center">
+         <div className="bg-gradient-to-r from-black to-purple-400 p-10 min-h-screen flex flex-col items-center">
           <h2 className="text-4xl font-bold text-center text-black underline">Contact Me</h2> <br />
 
        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
-          <FaMapMarkerAlt className="text-3xl mx-auto text-red-500" />
+          <FaMapMarkerAlt className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
           <h3 className="font-bold mt-2">Our Main Office</h3>
           <p>Office No. 15, Block B<br />City Center Mall
          Clifton, Karachi
          Pakistan</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
-          <FaPhone className="text-3xl mx-auto text-red-500" />
+          <FaPhone className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
           <h3 className="font-bold mt-2">Phone Number</h3>
           <p>(+92) 5678900<br />(+92) 4567891</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
-          <FaFax className="text-3xl mx-auto text-red-500" />
+          <FaFax className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
           <h3 className="font-bold mt-2">Fax</h3>
           <p>+92-234567-8900</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
-          <FaEnvelope className="text-3xl mx-auto text-red-500" />
+          <FaEnvelope className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
           <h3 className="font-bold mt-2">Email</h3>
           <p>PORTFOLIO371@gmail.com</p>
         </div>
@@ -37,7 +37,7 @@ export default function Contact() {
           <input type="email" placeholder="Email" required className="w-full p-2 border-b-2 focus:outline-none" />
           <input type="text" placeholder="Name" required className="w-full p-2 border-b-2 focus:outline-none" />
           <textarea placeholder="Message" required className="w-full p-2 border-b-2 focus:outline-none" ></textarea>
-          <button type="submit" className="w-full py-2 bg-red-400 text-white rounded-lg hover:bg-red-500">Submit</button>
+          <button type="submit" className="w-full py-2 bg-purple-400 text-white rounded-lg hover:bg-purple-500">Submit</button>
         </form>
         <p className="text-sm mt-4 text-black text-center">
           We ensure reliability for every form and email important to us.
