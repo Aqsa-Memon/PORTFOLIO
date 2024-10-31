@@ -18,23 +18,8 @@ const About = () => {
             {/* Text Section */}
             <div className="w-full md:w-1/2 md:pr-8 mt-8 md:mt-0 md:pl-8">
               <p className="text-base sm:text-lg text-white leading-relaxed">
-                {/* Hello! {`I'm`} <span className="font-semibold">Urooj Memon</span>, a dedicated web
-                developer with a passion for creating sleek, modern, and responsive websites. With
-                expertise in <span className="font-semibold">Next.js</span> and{' '}
-                <span className="font-semibold">Tailwind CSS</span>, I strive to deliver
-                user-centered experiences that not only look stunning but also function seamlessly
-                across all devices. My journey in web development has equipped me with a strong
-                foundation in <span className="font-semibold">TypeScript</span> and{' '}
-                <span className="font-semibold">React</span>, along with backend knowledge in{' '}
-                <span className="font-semibold">Node.js</span>.
-                <br />
-                <br />
-                When {`I’m`} not immersed in coding, {`you’ll`} find me indulging in my love for
-                reading or exploring the latest web technologies. {`I’m`} continuously looking for
-                opportunities to learn, grow, and take on exciting challenges to push my skills to
-                the next level.
-              </p> */}
-              Hello! I’m Urooj Memon, a web developer and UI/UX designer with a passion for creating beautiful and functional websites. My journey in tech has equipped me with a strong foundation in modern frameworks like  <span className="font-semibold">Next.js</span> and  <span className="font-semibold">Tailwind-Css</span>. I believe in the power of thoughtful design to enhance user experiences, and I’m always eager to tackle new challenges. Let's collaborate to build something amazing together!
+              
+              Hello! {`I’m`} Urooj Memon, a web developer and UI/UX designer with a passion for creating beautiful and functional websites. My journey in tech has equipped me with a strong foundation in modern frameworks like  <span className="font-semibold">Next.js</span> and  <span className="font-semibold">Tailwind-Css</span>. I believe in the power of thoughtful design to enhance user experiences, and {`I’m`} always eager to tackle new challenges. Lets collaborate to build something amazing together!
 
 
               </p>
