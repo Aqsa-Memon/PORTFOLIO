@@ -10,15 +10,16 @@ const Hero = () => {
   return (
     <div className='bg-gradient-to-r from-black to-purple-400 h-screen flex items-center justify-center'>
       <section className="text-white body-font">
-        <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
- 
-          <div className="w-52 h-52 sm:w-60 sm:h-60 md:w-72 md:h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden mb-8 md:mb-0">
+        <div className="container mx-auto flex flex-col-reverse md:flex-row px-4 py-5 items-center">
+          
+          <div className="w-40 h-40 sm:w-60 sm:h-60 md:w-72 md:h-72 xl:w-96 xl:h-96 rounded-full overflow-hidden mb-8 md:mb-0">
             <Image
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded-full"
               alt="hero"
               src="/mypic.png"
               height={500}
               width={500}
+              layout="responsive" // Ensures the image is responsive
             />
           </div> 
 
@@ -28,13 +29,13 @@ const Hero = () => {
               <br className="hidden lg:inline-block" />
               <Typewriter
                 options={{
-                  strings: ['Web Developer', 'UI/UX Designer','Front-End Developer'],
+                  strings: ['Web Developer', 'UI/UX Designer', 'Front-End Developer'],
                   autoStart: true,
                   loop: true,
                 }}
               />
             </h1>
-            <div className='w-[100px] sm:w-[150px] h-[2px] bg-black mb-4'></div>
+            <div className='w-24 sm:w-32 h-1 bg-black mb-4'></div>
             <p className="mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl">
               {`I’m`} a web developer and designer dedicated to turning ideas into interactive, visually captivating, and fully responsive websites. My mission is to blend creativity with technical precision, building experiences that resonate, inspire, and stand out in a digital world. Let's work together to bring your vision into reality, one pixel at a time.
             </p>

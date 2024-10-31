@@ -13,30 +13,42 @@ import {
 export default function Contact() {
   return (
     <div className="bg-gradient-to-r from-black to-purple-400 py-10 px-4 min-h-screen flex flex-col items-center">
-      <h2 className="text-3xl sm:text-4xl font-bold text-center text-black underline mb-8">Contact Me</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-center text-black underline mb-8">
+        Contact Me
+      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12 w-full max-w-6xl">
         {/* Contact Info Cards */}
         <div className="bg-white p-5 rounded-lg shadow-lg text-center flex flex-col items-center">
-          <FaMapMarkerAlt className="text-3xl text-black-500 hover:text-purple-500" />
-          <h3 className="font-bold mt-2">Our Main Office</h3>
+          <FaMapMarkerAlt className="text-3xl text-gray-700 hover:text-purple-500 transition duration-300" />
+          <h3 className="font-bold mt-2 text-base sm:text-lg">Our Main Office</h3>
           <p className="text-sm sm:text-base">
-            Office No. 15, Block B<br />City Center Mall<br />Clifton, Karachi<br />Pakistan
+            Office No. 15, Block B
+            <br />
+            City Center Mall
+            <br />
+            Clifton, Karachi
+            <br />
+            Pakistan
           </p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center flex flex-col items-center">
-          <FaPhone className="text-3xl text-black-500 hover:text-purple-500" />
-          <h3 className="font-bold mt-2">Phone Number</h3>
-          <p className="text-sm sm:text-base">(+92) 5678900<br />(+92) 4567891</p>
+          <FaPhone className="text-3xl text-gray-700 hover:text-purple-500 transition duration-300" />
+          <h3 className="font-bold mt-2 text-base sm:text-lg">Phone Number</h3>
+          <p className="text-sm sm:text-base">
+            (+92) 5678900
+            <br />
+            (+92) 4567891
+          </p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center flex flex-col items-center">
-          <FaFax className="text-3xl text-black-500 hover:text-purple-500" />
-          <h3 className="font-bold mt-2">Fax</h3>
+          <FaFax className="text-3xl text-gray-700 hover:text-purple-500 transition duration-300" />
+          <h3 className="font-bold mt-2 text-base sm:text-lg">Fax</h3>
           <p className="text-sm sm:text-base">+92-234567-8900</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center flex flex-col items-center">
-          <FaEnvelope className="text-3xl text-black-500 hover:text-purple-500" />
-          <h3 className="font-bold mt-2">Email</h3>
+          <FaEnvelope className="text-3xl text-gray-700 hover:text-purple-500 transition duration-300" />
+          <h3 className="font-bold mt-2 text-base sm:text-lg">Email</h3>
           <p className="text-sm sm:text-base">PORTFOLIO371@gmail.com</p>
         </div>
       </div>
@@ -49,22 +61,22 @@ export default function Contact() {
             type="email"
             placeholder="Email"
             required
-            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300"
+            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300 text-sm sm:text-base"
           />
           <input
             type="text"
             placeholder="Name"
             required
-            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300"
+            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300 text-sm sm:text-base"
           />
           <textarea
             placeholder="Message"
             required
-            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300"
+            className="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-purple-500 transition duration-300 text-sm sm:text-base"
           ></textarea>
           <button
             type="submit"
-            className="w-full py-2 bg-purple-400 text-white rounded-lg hover:bg-purple-500 transition duration-300"
+            className="w-full py-2 bg-purple-400 text-white rounded-lg hover:bg-purple-500 transition duration-300 text-sm sm:text-base"
           >
             Submit
           </button>
