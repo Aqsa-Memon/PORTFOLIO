@@ -1,18 +1,26 @@
 "use client";
-import { FaMapMarkerAlt, FaPhone, FaFax, FaEnvelope, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaFax,
+  FaEnvelope,
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+} from 'react-icons/fa';
 
 export default function Contact() {
   return (
-         <div className="bg-gradient-to-r from-black to-purple-400 p-10 min-h-screen flex flex-col items-center">
-          <h2 className="text-4xl font-bold text-center text-black underline">Contact Me</h2> <br />
+    <div className="bg-gradient-to-r from-black to-purple-400 py-10 px-4 min-h-screen flex flex-col items-center">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center text-black underline mb-8">Contact Me</h2>
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12 w-full max-w-6xl">
+        {/* Contact Info Cards */}
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
           <FaMapMarkerAlt className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
           <h3 className="font-bold mt-2">Our Main Office</h3>
-          <p>Office No. 15, Block B<br />City Center Mall
-         Clifton, Karachi
-         Pakistan</p>
+          <p>Office No. 15, Block B<br />City Center Mall<br />Clifton, Karachi<br />Pakistan</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-lg text-center">
           <FaPhone className="text-3xl mx-auto text-black-500 hover:text-purple-500" />
@@ -29,15 +37,16 @@ export default function Contact() {
           <h3 className="font-bold mt-2">Email</h3>
           <p>PORTFOLIO371@gmail.com</p>
         </div>
-       </div>
+      </div>
 
-       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+      {/* Contact Form */}
+      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
         <h2 className="text-2xl font-bold mb-4 text-gray-800 text-center">Get in Touch</h2>
         <form className="space-y-4">
           <input type="email" placeholder="Email" required className="w-full p-2 border-b-2 focus:outline-none" />
           <input type="text" placeholder="Name" required className="w-full p-2 border-b-2 focus:outline-none" />
-          <textarea placeholder="Message" required className="w-full p-2 border-b-2 focus:outline-none" ></textarea>
-          <button type="submit" className="w-full py-2 bg-purple-400 text-white rounded-lg hover:bg-purple-500">Submit</button>
+          <textarea placeholder="Message" required className="w-full p-2 border-b-2 focus:outline-none"></textarea>
+          <button type="submit" className="w-full py-2 bg-purple-400 text-white rounded-lg hover:bg-purple-500 transition duration-300">Submit</button>
         </form>
         <p className="text-sm mt-4 text-black text-center">
           We ensure reliability for every form and email important to us.
