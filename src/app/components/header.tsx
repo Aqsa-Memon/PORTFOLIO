@@ -6,7 +6,7 @@ function Header() {
     <div className='bg-purple-200'>
       <header className="text-black body-font">
         <div className="container mx-auto flex flex-wrap p-4 md:p-5 flex-col md:flex-row items-center justify-between">
-          <h1 className="text-2xl sm:text-3xl font-semibold hover:text-purple-700 transition-colors duration-200">
+          <h1 className="text-2xl sm:text-3xl font-semibold hover:text-purple-700 transition-colors duration-200 ">
             PORTFOLIO
           </h1>
 
