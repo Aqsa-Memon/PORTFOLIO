@@ -46,7 +46,7 @@ const Hero = () => {
             </h1>
             <div className="w-24 sm:w-32 h-1 bg-black mb-4"></div>
             <p className="mb-6 sm:mb-8 leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl">
-              {`I’m`} a web developer and designer dedicated to turning ideas into interactive, visually captivating, and fully responsive websites. My mission is to blend creativity with technical precision, building experiences that resonate, inspire, and stand out in a digital world. Let's work together to bring your vision into reality, one pixel at a time.
+              {`I’m`} a web developer and designer dedicated to turning ideas into interactive, visually captivating, and fully responsive websites. My mission is to blend creativity with technical precision, building experiences that resonate, inspire, and stand out in a digital world. Lets work together to bring your vision into reality, one pixel at a time.
             </p>
             <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
               <button className="inline-flex text-black bg-purple-300 border-0 py-2 px-4 sm:px-6 focus:outline-none hover:bg-purple-600 rounded text-base sm:text-lg transform transition-transform duration-300 hover:scale-105">
